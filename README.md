@@ -17,9 +17,6 @@ ekf_slam_ws/
 ├── package.xml
 └── setup.py
 
-markdown
-Copy code
-
 ---
 
 ## 🚀 Features
@@ -50,27 +47,36 @@ Copy code
 ## 🛠️ Build Instructions
 Clone the repo and build the workspace:
 
-```bash
 # Clone this repo
+```bash
 git clone https://github.com/VyomVyas25/EKF_SLAM.git
 cd EKF_SLAM/ekf_slam_ws
+```
 
 # Build
+```bash
 colcon build
+```
 
 # Source
+```bash
 source install/setup.bash
-
+```
 ▶️ Running
 1. Start the EKF-SLAM node
+```bash
 ros2 run ekf_slam_pkg ekf_slam
+```
 
-2. Start the visualization node
+3. Start the visualization node
+```bash
 ros2 run ekf_slam_pkg ekf_slam_viz
+```
 
-3. Open RViz2
+5. Open RViz2
+```bash
 rviz2
-
+```
 
 Set Fixed Frame = odom
 
@@ -87,4 +93,4 @@ Green line = robot path
 Orange cylinders = detected landmarks
 
 ---
-```bash
+
