@@ -1,0 +1,4 @@
+[console_scripts]
+ekf_slam = ekf_slam_pkg.EKF_slam:main
+ekf_slam_viz = ekf_slam_pkg.viz_ekf_slam:main
+

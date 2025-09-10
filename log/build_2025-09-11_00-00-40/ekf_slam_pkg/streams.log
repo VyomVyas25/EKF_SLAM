@@ -1,0 +1,47 @@
+[0.689s] Invoking command in '/home/vyom/EKF_SLAM/src/ekf_slam_pkg': PYTHONPATH=/home/vyom/EKF_SLAM/build/ekf_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam_pkg build --build-base /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build install --record /home/vyom/EKF_SLAM/build/ekf_slam_pkg/install.log --single-version-externally-managed install_data
+[0.934s] running egg_info
+[0.934s] creating ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info
+[0.934s] writing ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/entry_points.txt
+[0.935s] writing requirements to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/requires.txt
+[0.935s] writing top-level names to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/top_level.txt
+[0.935s] writing manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+[0.938s] reading manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+[0.939s] writing manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+[0.939s] running build
+[0.939s] running build_py
+[0.939s] creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build
+[0.940s] creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib
+[0.940s] creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.940s] copying ekf_slam_pkg/slam_try.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.940s] copying ekf_slam_pkg/Untitled-3.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.940s] copying ekf_slam_pkg/viz_ekf_slam.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.940s] copying ekf_slam_pkg/EKF_slam.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.940s] copying ekf_slam_pkg/__init__.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.942s] copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/slam_try.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.943s] copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/Untitled-3.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.943s] copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/viz_ekf_slam.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.943s] copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/EKF_slam.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.943s] copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/__init__.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+[0.943s] byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/slam_try.py to slam_try.cpython-310.pyc
+[0.945s] byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/Untitled-3.py to Untitled-3.cpython-310.pyc
+[0.949s] byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/viz_ekf_slam.py to viz_ekf_slam.cpython-310.pyc
+[0.950s] byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/EKF_slam.py to EKF_slam.cpython-310.pyc
+[0.953s] byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/__init__.py to __init__.cpython-310.pyc
+[0.953s] running install_data
+[0.953s] creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index
+[0.953s] creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index
+[0.953s] creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index/packages
+[0.954s] copying resource/ekf_slam_pkg -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index/packages
+[0.954s] copying package.xml -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ekf_slam_pkg
+[0.954s] running install_egg_info
+[0.956s] Copying ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg-0.0.0-py3.10.egg-info
+[0.956s] running install_scripts
+[0.976s] Installing ekf_slam script to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/ekf_slam_pkg
+[0.976s] Installing ekf_slam_viz script to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/ekf_slam_pkg
+[0.976s] writing list of installed files to '/home/vyom/EKF_SLAM/build/ekf_slam_pkg/install.log'
+[0.998s] Invoked command in '/home/vyom/EKF_SLAM/src/ekf_slam_pkg' returned '0': PYTHONPATH=/home/vyom/EKF_SLAM/build/ekf_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam_pkg build --build-base /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build install --record /home/vyom/EKF_SLAM/build/ekf_slam_pkg/install.log --single-version-externally-managed install_data

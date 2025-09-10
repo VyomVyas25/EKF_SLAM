@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info
+writing ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/top_level.txt
+writing manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build
+creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib
+creating /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+copying ekf_slam_pkg/slam_try.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+copying ekf_slam_pkg/Untitled-3.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+copying ekf_slam_pkg/viz_ekf_slam.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+copying ekf_slam_pkg/EKF_slam.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+copying ekf_slam_pkg/__init__.py -> /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg
+running install
+running install_lib
+creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/slam_try.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/Untitled-3.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/viz_ekf_slam.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/EKF_slam.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+copying /home/vyom/EKF_SLAM/build/ekf_slam_pkg/build/lib/ekf_slam_pkg/__init__.py -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg
+byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/slam_try.py to slam_try.cpython-310.pyc
+byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/Untitled-3.py to Untitled-3.cpython-310.pyc
+byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/viz_ekf_slam.py to viz_ekf_slam.cpython-310.pyc
+byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/EKF_slam.py to EKF_slam.cpython-310.pyc
+byte-compiling /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index
+creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index
+creating /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index/packages
+copying resource/ekf_slam_pkg -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/vyom/EKF_SLAM/install/ekf_slam_pkg/share/ekf_slam_pkg
+running install_egg_info
+Copying ../../build/ekf_slam_pkg/ekf_slam_pkg.egg-info to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/python3.10/site-packages/ekf_slam_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ekf_slam script to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/ekf_slam_pkg
+Installing ekf_slam_viz script to /home/vyom/EKF_SLAM/install/ekf_slam_pkg/lib/ekf_slam_pkg
+writing list of installed files to '/home/vyom/EKF_SLAM/build/ekf_slam_pkg/install.log'
