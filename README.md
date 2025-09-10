@@ -7,14 +7,22 @@ Visualization in RViz2 shows the robot trajectory and detected landmarks in real
 ---
 
 ## 📂 Workspace Structure
-ekf_slam_ws/
-└── src/
-└── ekf_slam_pkg/
-├── ekf_slam_pkg/
+ekf_slam_ws
+
+└── src
+
+└── ekf_slam_pkg
+
+├── ekf_slam_pkg
+
 │ ├── EKF_slam.py # Main EKF-SLAM node
+
 │ ├── viz_ekf_slam.py # Visualization node (path + landmarks)
+
 │ └── init.py
+
 ├── package.xml
+
 └── setup.py
 
 ---
