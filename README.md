@@ -109,7 +109,7 @@ Set `Fixed Frame = odom` and add displays:
 ### 🤖 EKF-SLAM — Live Navigation with Path Tracking
 > A closer view of the robot mid-navigation. The EKF-SLAM algorithm continuously corrects the robot's estimated pose using landmark observations, keeping the green (corrected) path tightly aligned with the true trajectory.
 
-![EKF SLAM Live Navigation](docs/images/ekf_slam_navigation.png)
+![EKF SLAM Live Navigation](https://github.com/VyomVyas25/EKF_SLAM/blob/main/src/ekf_slam_pkg/Screenshot%20from%202026-04-21%2014-31-08.png)
 
 ---
 
