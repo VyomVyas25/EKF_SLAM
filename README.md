@@ -95,7 +95,7 @@ Set `Fixed Frame = odom` and add displays:
 ### 🔍 RViz2 — LiDAR Scan + 2D Goal Navigation
 > The left panel shows the robot (top-down) with LiDAR scan rays (blue fan) actively sensing the environment. The right panel shows the Nav2 2D map with orange landmark markers and a planned path to the goal pose.
 
-![RViz LiDAR Scan and 2D Goal Pose](src/ekf_slam_pkg/Screenshot from 2026-04-21 14-30-34.png)
+![RViz LiDAR Scan and 2D Goal Pose]([src/ekf_slam_pkg/Screenshot from 2026-04-21 14-30-34.png](https://github.com/VyomVyas25/EKF_SLAM/blob/main/src/ekf_slam_pkg/Screenshot%20from%202026-04-21%2014-30-34.png))
 
 ---
 
