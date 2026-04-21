@@ -7,27 +7,23 @@ Visualization in RViz2 shows the robot trajectory and detected landmarks in real
 ---
 
 ## 📂 Workspace Structure
+
+```
 ekf_slam_ws
-
 └── src
-
-└── ekf_slam_pkg
-
-├── ekf_slam_pkg
-
-│ ├── EKF_slam.py # Main EKF-SLAM node
-
-│ ├── viz_ekf_slam.py # Visualization node (path + landmarks)
-
-│ └── init.py
-
-├── package.xml
-
-└── setup.py
+    └── ekf_slam_pkg
+        ├── ekf_slam_pkg
+        │   ├── EKF_slam.py       # Main EKF-SLAM node
+        │   ├── viz_ekf_slam.py   # Visualization node (path + landmarks)
+        │   └── __init__.py
+        ├── package.xml
+        └── setup.py
+```
 
 ---
 
 ## 🚀 Features
+
 - **EKF Prediction + Correction** using odometry and LiDAR.
 - **Landmark detection** and dynamic augmentation of state vector.
 - **Data association** for re-observed landmarks.
@@ -38,6 +34,7 @@ ekf_slam_ws
 ---
 
 ## ⚙️ Requirements
+
 - ROS 2 Humble
 - Python 3.10+
 - Dependencies (already in `package.xml`):
@@ -53,52 +50,98 @@ ekf_slam_ws
 ---
 
 ## 🛠️ Build Instructions
+
 Clone the repo and build the workspace:
 
-# Clone this repo
 ```bash
+# Clone this repo
 git clone https://github.com/VyomVyas25/EKF_SLAM.git
 cd EKF_SLAM/ekf_slam_ws
-```
 
 # Build
-```bash
 colcon build
-```
 
 # Source
-```bash
 source install/setup.bash
 ```
-▶️ Running
-1. Start the EKF-SLAM node
+
+---
+
+## ▶️ Running
+
+**1. Start the EKF-SLAM node**
 ```bash
 ros2 run ekf_slam_pkg ekf_slam
 ```
 
-3. Start the visualization node
+**2. Start the visualization node**
 ```bash
 ros2 run ekf_slam_pkg ekf_slam_viz
 ```
 
-5. Open RViz2
+**3. Open RViz2**
 ```bash
 rviz2
 ```
 
-Set Fixed Frame = odom
-
-Add displays:
-
-Path → topic /slam_path
-
-MarkerArray → topic /slam_landmarks
-
-📊 Example RViz View
-
-Green line = robot path
-
-Orange cylinders = detected landmarks
+Set `Fixed Frame = odom` and add displays:
+- `Path` → topic `/slam_path`
+- `MarkerArray` → topic `/slam_landmarks`
 
 ---
 
+## 📊 Results & Visualization
+
+### 🔍 RViz2 — LiDAR Scan + 2D Goal Navigation
+> The left panel shows the robot (top-down) with LiDAR scan rays (blue fan) actively sensing the environment. The right panel shows the Nav2 2D map with orange landmark markers and a planned path to the goal pose.
+
+![RViz LiDAR Scan and 2D Goal Pose](src/ekf_slam_pkg/Screenshot from 2026-04-21 14-30-34.png)
+
+---
+
+### 🗺️ EKF-SLAM — Full Loop Trajectory
+> The robot successfully navigates a full loop around the environment. The **red line** represents the odometry-only estimate, while the **green line** shows the EKF-corrected trajectory. Orange cylinders are the detected and mapped landmarks.
+
+![EKF SLAM Full Loop Trajectory](docs/images/ekf_slam_full_loop.png)
+
+---
+
+### 🤖 EKF-SLAM — Live Navigation with Path Tracking
+> A closer view of the robot mid-navigation. The EKF-SLAM algorithm continuously corrects the robot's estimated pose using landmark observations, keeping the green (corrected) path tightly aligned with the true trajectory.
+
+![EKF SLAM Live Navigation](docs/images/ekf_slam_navigation.png)
+
+---
+
+### Legend
+| Color | Meaning |
+|-------|---------|
+| 🟢 Green path | EKF-corrected robot trajectory |
+| 🔴 Red path   | Raw odometry estimate |
+| 🟠 Orange cylinders | Detected & mapped landmarks |
+
+---
+
+## 📁 Adding Images to Your Repository
+
+To display the screenshots above, place your images in the repo under:
+```
+docs/
+└── images/
+    ├── ekf_slam_rviz_lidar.png
+    ├── ekf_slam_full_loop.png
+    └── ekf_slam_navigation.png
+```
+
+Then push them:
+```bash
+git add docs/images/
+git commit -m "Add EKF-SLAM result screenshots"
+git push
+```
+
+---
+
+## About
+
+This repository contains self-developed packages and nodes for EKF-based SLAM algorithms in ROS2. The code is designed to be modular and extensible. SLAM integration is currently under development.
