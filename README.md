@@ -102,7 +102,7 @@ Set `Fixed Frame = odom` and add displays:
 ### 🗺️ EKF-SLAM — Full Loop Trajectory
 > The robot successfully navigates a full loop around the environment. The **red line** represents the odometry-only estimate, while the **green line** shows the EKF-corrected trajectory. Orange cylinders are the detected and mapped landmarks.
 
-![EKF SLAM Full Loop Trajectory](docs/images/ekf_slam_full_loop.png)
+![EKF SLAM Full Loop Trajectory]([docs/images/ekf_slam_full_loop.png](https://github.com/VyomVyas25/EKF_SLAM/blob/main/src/ekf_slam_pkg/Screenshot%20from%202026-04-21%2014-30-53.png))
 
 ---
 
