@@ -122,26 +122,6 @@ Set `Fixed Frame = odom` and add displays:
 
 ---
 
-## 📁 Adding Images to Your Repository
-
-To display the screenshots above, place your images in the repo under:
-```
-docs/
-└── images/
-    ├── ekf_slam_rviz_lidar.png
-    ├── ekf_slam_full_loop.png
-    └── ekf_slam_navigation.png
-```
-
-Then push them:
-```bash
-git add docs/images/
-git commit -m "Add EKF-SLAM result screenshots"
-git push
-```
-
----
-
 ## About
 
-This repository contains self-developed packages and nodes for EKF-based SLAM algorithms in ROS2. The code is designed to be modular and extensible. SLAM integration is currently under development.
+This repository contains self-developed packages and nodes for EKF-based SLAM algorithms in ROS2. The code is designed to be modular and extensible.
